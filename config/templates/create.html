@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container-form"> 
+        <h1>Ingresar los Datos del Laboratorio</h1>
+
+        <form method="POST">
+            {% csrf_token %}
+
+            {{ form.as_p }}
+            
+            <button type="submit">Ingresar Registro</button>
+        </form>
+    </div>
+<br>
+<br>
+<h5>¿Información de los Laboratorios?</h5>
+<br>
+<a href="/">Ir a la Página de Inicio</a>
+<br>
+{% endblock %}  

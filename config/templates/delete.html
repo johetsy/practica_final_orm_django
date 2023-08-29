@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container-form">
+        <h1>Confirmar Eliminación</h1>
+        <br>
+        <p>¿Estás seguro de que deseas eliminar el laboratorio "{{ laboratorio.nombre }}"?</p>
+        <br>
+        <form method="POST">
+            {% csrf_token %}
+            <button class="btn-dark btn-lg" type="submit" name="confirmacion" value="si">Confirmar</button>
+            <button class="btn-dark btn-lg" type="submit" name="confirmacion" value="no">Regresar</button>
+        </form>
+    </div>
+{% endblock %}

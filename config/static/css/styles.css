@@ -1,0 +1,67 @@
+.nav-link {
+    text-decoration: none;
+    /* color: #02475E; */
+    color: white!important;
+    font-weight: 600; 
+    font-size: 22px;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    color: black !important;
+    background-color: #edc6b1;
+    border-radius: 10%;
+   
+}
+
+.logo-img {
+    width: 150px; /* Cambiar el tamaño de la imagen según lo necesario */
+    border-radius: 10px; /* Aplicar bordes redondeados */
+}
+h1 {
+    align-items: center;
+}
+
+/* Ajustar el tamaño de fuente para los enlaces en las celdas */
+a {
+    font-size: 22px;
+}
+
+.btn-dark.btn-lg:hover {
+    color: black !important;
+    background-color: #CCD1D1 ;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.container-form {
+    margin: 50px auto 0;
+    width: 55%; /* Ancho del formulario */
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #FAD8CE;
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+.form-container-list {
+    margin: 50px auto 0;
+    width: 80%; /* Ancho del formulario */
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #FAD8CE;
+    font-size: 22px;
+    
+}
+.container-index {
+    background-color: #FAD8CE;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 50px auto 0; /* Centrar horizontalmente */
+    max-width: 900px; /* Limitar el ancho máximo para que no ocupe toda la pantalla */
+    text-align: center;
+}
